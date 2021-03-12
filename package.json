@@ -52,7 +52,7 @@
   "dependencies": {
     "@inrupt/solid-client-authn-node": "^1.7.2",
     "express": "^4.17.1",
-    "inquirer": "^7.3.3",
+    "inquirer": "^8.0.0",
     "yargs": "^16.2.0"
   }
 }
