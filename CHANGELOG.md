@@ -8,6 +8,12 @@ The following changes have been implemented but not released yet:
 
 The following sections document changes that have been released already:
 
+## 0.1.3 - 2021-08-13
+
+### Bugfix
+
+- Upgraded dependencies to get a bugfix to resolve "invalid client_credentials" issue.
+
 ## 0.1.2 - 2021-04-20
 
 ### Bugfix
