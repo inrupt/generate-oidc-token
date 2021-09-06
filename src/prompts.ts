@@ -20,10 +20,7 @@
  */
 
 import inquirer from "inquirer";
-import {
-  IDENTITY_PROVIDER_INRUPT_PROD_COMPAT,
-  IDENTITY_PROVIDER_INRUPT_PROD,
-} from "./constants";
+import { IDENTITY_PROVIDER_INRUPT_PROD } from "./constants";
 
 const PROMPT_IDP_LIST = {
   type: "list",
@@ -31,7 +28,6 @@ const PROMPT_IDP_LIST = {
   name: "identityProvider",
   choices: [
     { name: IDENTITY_PROVIDER_INRUPT_PROD },
-    { name: IDENTITY_PROVIDER_INRUPT_PROD_COMPAT },
     {
       name:
         "My Solid Identity provider is not on the list - please contact 'developer-support@inrupt.com' if you'd like to discuss adding a new provider.",
