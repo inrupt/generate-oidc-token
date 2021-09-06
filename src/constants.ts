@@ -19,6 +19,5 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+// eslint-disable-next-line import/prefer-default-export
 export const IDENTITY_PROVIDER_INRUPT_PROD = "https://broker.pod.inrupt.com";
-export const IDENTITY_PROVIDER_INRUPT_PROD_COMPAT =
-  "https://broker.pod-compat.inrupt.com";
