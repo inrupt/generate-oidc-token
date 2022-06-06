@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Package no longer supported. Use at your own risk.
+
 # generate-oidc-token
 
 This small app generates a token which can be used to login to a Solid Pod.
